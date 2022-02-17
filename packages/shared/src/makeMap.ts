@@ -4,6 +4,8 @@
  * IMPORTANT: all calls of this function must be prefixed with
  * \/\*#\_\_PURE\_\_\*\/
  * So that rollup can tree-shake them if necessary.
+ * 
+ * 收集依赖，用于后期的tree-shaking
  */
 export function makeMap(
   str: string,
